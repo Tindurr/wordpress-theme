@@ -15,7 +15,7 @@ get_header();
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 style="color:purple;" class="page-title"><?php esc_html_e( "Whoopsie. That wasn't supposed to happen.", "weaver" ); ?></h1>
+					<h1 style="color:purple;" align="center" class="page-title"><?php esc_html_e( "Whoopsie. That wasn't supposed to happen.", "weaver" ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
