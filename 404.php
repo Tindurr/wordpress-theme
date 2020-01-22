@@ -20,7 +20,7 @@ get_header();
 
 				<div class="page-content">
 					<p><?php esc_html_e( 'It may be a 404, but have the teapot from 418 anyways. We do not get to use it much.', 'weaver' ); ?></p>
-					<img src="wp-content\themes\wordpress-theme\images\Utah_teapot_simple_2.png" alt="a Utah Teapot.">
+					<img src="wp-content\themes\wordpress-theme\images\Utah_teapot_simple_2.png" alt="a Utah Teapot." height="100" width="100">
 
 					<?php
 					get_search_form();
