@@ -160,8 +160,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 add_theme_support( 'weaver-custom-header' );
-
-/*function weaver_custom_header_setup() {
+ function weaver_custom_header_setup() {
     $defaults = array(
         // Default Header Image to display
         'default-image'         => get_template_directory_uri() . 'wp-content\themes\wordpress-theme\images\default.jpg',
@@ -185,5 +184,5 @@ add_theme_support( 'weaver-custom-header' );
         'admin-preview-callback'    => 'adminpreview_cb',
         );
 }
-add_action( 'after_setup_theme', 'weaver_custom_header_setup' ); */  
+add_action( 'after_setup_theme', 'weaver_custom_header_setup' );
 
