@@ -159,4 +159,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-
+add_theme_support( 'custom-header', apply_filters('Weaver_custom_header_args', array(
+	'default-image'           => '',
+	'default-text-color'      => '000000',
+	'width'                   => 1000,
+	'height'                  => 250,
+	'flex-height'             => true,
+	'wp-head-callback'        => 'Weaver_header_style',
+) ) );
